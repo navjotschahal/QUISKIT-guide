@@ -133,11 +133,9 @@ Bit Ordering Guide: https://quantum.cloud.ibm.com/docs/guides/bit-ordering
 
 ## Submission Checklist
 ```text
-[ ] Secure token usage (no hard-coded secrets in final commit)
 [ ] Circuit diagram included
 [ ] Counts & plot included
 [ ] Oracle description & expected vs observed analysis
-[ ] Transpilation metrics (optional if required by prompt)
 [ ] README reviewed for accuracy
 ```
 
