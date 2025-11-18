@@ -1,3 +1,5 @@
+![University of Pennsylvania logo](./media/UniversityofPennsylvania_FullLogo_RGB.png)
+
 # HW03 Instructions – ESE50590 (Fall 2025, University of Pennsylvania)
 
 This README provides setup and execution instructions for the quantum circuits homework. It builds on IBM Quantum's "Hello World" tutorial and guides you through running and modifying the provided example notebook (`example.ipynb`).
