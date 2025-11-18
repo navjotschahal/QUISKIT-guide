@@ -34,7 +34,7 @@ Directly start playing with https://quantum.cloud.ibm.com/docs/en/guides/compose
 2. Navigate to Dashboard and generate your API Token (44‑character string). Do NOT commit it to Git.
 3. (Optional) Locate an instance CRN under Instances page if you plan to target a specific instance.
 
-## 2. Securely Store Your Token
+## 2. Securely Store Your Token optional
 Prefer environment variables over hard‑coding.
 
 In your terminal (zsh):
@@ -49,14 +49,7 @@ from qiskit_ibm_runtime import QiskitRuntimeService
 service = QiskitRuntimeService(token=os.environ["IBM_QUANTUM_TOKEN"], instance=os.getenv("IBM_QUANTUM_CRN"))
 ```
 
-Alternatively, one‑time local save (writes credentials to disk):
-```python
-from qiskit_ibm_runtime import QiskitRuntimeService
-QiskitRuntimeService.save_account(token="<your-token>", instance="<CRN>")  # CRN optional
-# Later:
-service = QiskitRuntimeService()
-```
-Do not run `save_account` on shared lab machines.
+Alternatively carefully replace the placeholder in the notebook with your token string (not recommended for sharing).
 
 ## 3. Install Dependencies
 From the repository root:
