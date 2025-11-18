@@ -23,13 +23,10 @@ Directly start playing with https://quantum.cloud.ibm.com/docs/en/guides/compose
 
 ## Repository Contents
 - `example.ipynb`: Starter notebook showing a Bell circuit with `SamplerV2`.
-- `hw3_p3.ipynb`: Placeholder / problem notebook (edit per assignment instructions).
-- `requirements.txt`: Python dependencies list.
 - `README.md`: (This file).
 
 ## Prerequisites
 - Python 3.9+ recommended.
-- macOS (as in course environment) with `zsh` shell.
 - An IBM Quantum Platform account (Open Plan is sufficient).
 
 ## 1. Create / Verify IBM Quantum Account
