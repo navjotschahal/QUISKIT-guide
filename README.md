@@ -2,6 +2,9 @@
 
 # HW03 Instructions – ESE50590 (Fall 2025, University of Pennsylvania)
 
+- Instructor: Prof. Anthony Sigillito — https://directory.seas.upenn.edu/anthony-sigillito/
+- Teaching Assistant: Navjot Singh Chahal —
+
 This README provides setup and execution instructions for the quantum circuits homework. It builds on IBM Quantum's "Hello World" tutorial and guides you through running and modifying the provided example notebook (`example.ipynb`).
 
 ### Good reference for cloud web interface and QASM as your main submission is on cloud sim and then real backend run:
@@ -144,8 +147,8 @@ Bit Ordering Guide: https://quantum.cloud.ibm.com/docs/guides/bit-ordering
 ---
 ### Contact
 
-- Teaching Assistant: Nikhil Schahal — nschahal@seas.upenn.edu (preferred: course Slack channel)  
-- Instructor: Prof. Anthony Sigillito — https://directory.seas.upenn.edu/anthony-sigillito/
+- Teaching Assistant: Navjot Singh Chahal — nschahal@seas.upenn.edu (preferred: course Slack channel)  
+
 
 For general course questions use the Slack channel first; email for attachments or private matters.
 
