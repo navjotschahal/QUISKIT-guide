@@ -52,6 +52,7 @@ service = QiskitRuntimeService(token=os.environ["IBM_QUANTUM_TOKEN"], instance=o
 Alternatively carefully replace the placeholder in the notebook with your token string (not recommended for sharing).
 
 ## 3. Install Dependencies
+Sanity tested on python 3.12 should work fine for python 3.10 +
 From the repository root:
 ```bash
 python -m venv .venv
